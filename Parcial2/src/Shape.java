@@ -29,12 +29,13 @@ public abstract class Shape {
 		public void setFilled(boolean filled) {
 			this.filled = filled;
 		}
-		public double getArea() {
-			return area;
-		}
+		public abstract double getArea(); 
 
-		public double getPerimeter() {
-			return perimeter;
+		public abstract double getPerimeter();
+		
+		@Override
+		public String toString() {
+			return "Shape [color=" + color + ", filled=" + filled + "]";
 		}
 
 	    

@@ -3,14 +3,12 @@ public class Circle extends Shape {
 
 	protected double radius = 1.0;
 	
-	
-	
     Circle(){
         this.color = "blue";
-        this.radius = 3.7;
+        this.radius = 4.2;
         this.filled = true;
-        this.area = 43;
-        this.perimeter = 23.23;
+        this.area = 50;
+        this.perimeter = 20;
     }
 
     Circle(double radius) {
@@ -31,6 +29,7 @@ public class Circle extends Shape {
 		this.radius = radius;
 	}
 
+	
 	@Override
 	public double getArea() {
 		area = (radius*radius)*3.14;
