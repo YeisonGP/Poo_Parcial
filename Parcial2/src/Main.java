@@ -42,22 +42,39 @@ public class Main {
         s16.setFilled(true);
         
         
-        
+        //print consigna
         System.out.println("Figura numero 1: " + s1 );
+        
         System.out.println("\nFigura numero 2: " + s2 );
+        
         System.out.println("\nFigura numero 3: " + s3 );
+        
         System.out.println("\nFigura numero 4: " + s4 );
+        
+        //print constructor
         System.out.println("\nFigura numero 5: " + s5 );
+        
         System.out.println("\nFigura numero 6: " + s6 );
+        
         System.out.println("\nFigura numero 7: " + s7 );
+        
         System.out.println("\nFigura numero 8: " + s8 );
+        
         System.out.println("\nFigura numero 9: " + s9 );
+        
         System.out.println("\nFigura numero 10: " + s10 );
+        
         System.out.println("\nFigura numero 11: " + s11 );
+        
         System.out.println("\nFigura numero 12: " + s12 );
+        
         System.out.println("\nFigura numero 13: " + s13 );
+        
+        //print setter
         System.out.println("\nFigura numero 14: " + s14 );
+        
         System.out.println("\nFigura numero 15: " + s15 );
+        
         System.out.println("\nFigura numero 16: " + s16 );
         
         
