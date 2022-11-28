@@ -1,10 +1,10 @@
 
-public class Squere extends Rectangle{
+public class Square extends Rectangle{
 
 	private double side;
 
 
-	public Squere() {
+	public Square() {
         this.color = "blue";
         this.side= 6;
         this.filled = true;
@@ -13,14 +13,14 @@ public class Squere extends Rectangle{
 	}
 	
 
-	public Squere(double side) {
+	public Square(double side) {
 		this.side = side;
         this.length = side;
         this.width = side;
 	}
 
 
-	public Squere(String color, boolean filled, double side) {
+	public Square(String color, boolean filled, double side) {
 		super(color, filled);
 		this.side = side;
 	}
@@ -47,7 +47,7 @@ public class Squere extends Rectangle{
 
 	@Override
 	public String toString() {
-		return "Squere [width=" + width + ", length=" + length + ", color=" + color + ", filled=" + filled + "]";
+		return "Square [width=" + width + ", length=" + length + ", color=" + color + ", filled=" + filled + "]";
 	}
 	
 	
