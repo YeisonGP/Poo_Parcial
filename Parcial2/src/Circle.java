@@ -41,5 +41,12 @@ public class Circle extends Shape {
 		perimeter = 2*Math. PI*radius;
 		return perimeter;
 	}
+
+	@Override
+	public String toString() {
+		return "Circle [radius=" + radius + ", color=" + color + ", filled=" + filled + "]";
+	}
+	
+	
 		
 }
